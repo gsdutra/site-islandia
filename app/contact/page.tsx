@@ -18,7 +18,7 @@ export default function About() {
     <div className="bg-gradient-to-t from-black to-transparent fixed w-full h-full top-10"></div>
     <div className="fixed w-full h-full flex flex-col justify-center items-center text-white text-3xl mt-10 text-center">
       <div className="p-4">
-      <a className={lato.className}>Gostou do server? Contate um dos admins para entrar!</a>
+        <a className={lato.className}>Gostou do server? Contate um dos admins para entrar!</a>
       </div>
       <div className="flex mt-10 text-2xl justify-center mobile:text-lg mobile:flex-wrap">
         <div className="flex flex-col items-center mx-6 mobile:w-[110px]">
