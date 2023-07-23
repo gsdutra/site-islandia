@@ -13,3 +13,27 @@ body {
 	transition: .2s;
 	transform: scale(1.02);
 }
+
+.menu {
+	left: 0;
+	opacity: 1;
+	transition: left .3s ease-in-out;
+}
+
+.menuhidden {
+	left: -100%;
+	scale: 0;
+	transition: left .3s ease-in-out, scale 0s linear 0.3s;
+}
+
+.hidebg {
+	opacity: 0;
+	scale: 0;
+	transition: opacity .07s ease-in-out, scale 0s linear 0.07s;
+}
+
+.hidebg.show {
+	scale: 1;
+	opacity: 0.5;
+	transition: opacity .07s ease-in-out;
+}

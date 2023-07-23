@@ -15,15 +15,17 @@ export default function Home() {
       alt="Islândia"
     />
     <div className="bg-gradient-to-t from-black to-transparent fixed w-full h-full top-10"></div>
-    <div className="fixed w-full h-full flex flex-col justify-center items-center text-white text-3xl">
+    <div className="fixed w-full h-full flex flex-col justify-center items-center text-white text-3xl text-center">
       <img
         src="/brasao.png"
         width={400}
         height={400}
         alt="Islândia"
-        className="mb-4"
+        className="mb-4 px-8"
       />
-      <a className={lato.className}>Conheça o melhor servidor de Minecraft da história</a>
+      <div className="px-4">
+        <a className={lato.className}>Conheça o melhor servidor de Minecraft da história</a>
+      </div>
     </div>
   </>)
 }
