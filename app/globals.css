@@ -4,3 +4,12 @@
 
 body {
 }
+
+.button {
+	transition: .2s;
+	cursor: pointer;
+}
+.button:hover {
+	transition: .2s;
+	transform: scale(1.02);
+}
